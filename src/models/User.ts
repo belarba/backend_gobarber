@@ -20,6 +20,9 @@ class User {
   @Column() // default é varchar
   password: string;
 
+  @Column() // default é varchar
+  avatar: string;
+
   @CreateDateColumn()
   created_at: Date;
 
